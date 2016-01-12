@@ -1,0 +1,32 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# AUTHOR
+
+  Name: Jakub Rohde
+  From: Gdynia, Poland
+  Language: Polish , English
+  Site: www.rohdejakub.pl
+  Contact: rohdejakub@gmail.com
+  Github: www.github.com/rohdejakub
+
+# THANKS
+
+  Name: Tomasz Nastały
+  Site: www.nastalytomasz.pl
+
+# SITE
+
+  Name: Koptrans
+  Doctype: HTML5
+  Language: Polish
+  Version: 1.0
+  Last update: 12.01.2016
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, JavaScript, GitHub
+
+# SOFTWARE
+
+  WebStorm, Photoshop
