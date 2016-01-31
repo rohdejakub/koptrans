@@ -28,22 +28,25 @@ $(document).ready(function() {
         }
         return addClassToNav(activeSection);
     }
+    //    konie sectionInViewport
+
+    //funkcja dodająca klasę do menu w zależności od pozycji z funkcji sectionInViewport
     function addClassToNav(liIndex){
         var liCollection = $('nav a');
         var liActiv = liCollection[liIndex];
         liCollection.removeClass('active');
         $(liActiv).addClass('active');
     }
+    // koniec addClassToNav
+
     //wywoływanie funkcji sprawdzającej pozycje sekcji
     $(window).scroll(sectionInViewport);
 
 });
+// koniec document.ready
 
 // pobieranie daty
 $("#date").text((new Date()).getFullYear());
 
-/*function scrolltest (){
- return $("#test").text($(window).scrollTop());
- }
- $(window).scroll(scrolltest);*/
+
 
